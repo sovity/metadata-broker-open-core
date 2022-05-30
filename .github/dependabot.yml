@@ -4,23 +4,23 @@ updates:
     directory: "/"
     schedule:
       interval: "daily"
-    target-branch: "main"
+    target-branch: "master"
     open-pull-requests-limit: 30
   - package-ecosystem: "maven"
     directory: "/broker-core/"
     schedule:
       interval: "daily"
-    target-branch: "main"
+    target-branch: "master"
     open-pull-requests-limit: 30
   - package-ecosystem: "maven"
     directory: "/open-broker-common/"
     schedule:
       interval: "daily"
-    target-branch: "main"
+    target-branch: "master"
     open-pull-requests-limit: 30
   - package-ecosystem: "maven"
     directory: "/open-index-common/"
     schedule:
       interval: "daily"
-    target-branch: "main"
+    target-branch: "master"
     open-pull-requests-limit: 30
