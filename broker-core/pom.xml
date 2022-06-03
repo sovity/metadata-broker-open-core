@@ -5,7 +5,7 @@
     <parent>
         <artifactId>broker-open-core</artifactId>
         <groupId>de.fraunhofer.iais.eis.ids</groupId>
-        <version>${revision}</version>
+        <version>5.0.0</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
