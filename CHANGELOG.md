@@ -1,6 +1,24 @@
 
 # Change log of the MetaDataBroker open core
 
+# Change Log for the ids-components
+
+## [Release 5.0.4] - 2022-11-15 
+updating dependencies of  
+- *IDS Information Model Validation and Serialization Provider*  to release 5.0.4 
+- *International Data Spaces Serializer* to release 5.0.4
+- *International Data Spaces Components* to release 5.0.4
+- due to bugfixes in der serializer
+
+## [Release 5.0.3] - 2022-11-26
+### Added
+- Added an update of the handling of a Fuseki server that is not reachable.
+- Added an update of the dependencies due to information model changes
+
+## [Release 5.0.2] - 2022-09-15
+### Fixed
+- Updated "getResourceIDandAsJSON" in the RepositoryFacade to get the original Fuseki content. The "replace" function previously available is now executed inside the "refreshIndex" method.
+
 ## [Release 5.0.1] - 2022-06-30
 ### Added
 - Added a new method in the Abstract class for Elasticsearch Index called "addResourceAsJson". This method is used to **improve** the reindexing. With this method, reindexing can be done with the JSON-LD representation of the Resource.
