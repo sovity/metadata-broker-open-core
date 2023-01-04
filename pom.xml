@@ -15,7 +15,7 @@
     </modules>
     <properties>
         <rdf4j.version>3.4.0</rdf4j.version>
-        <jena.version>4.1.0</jena.version>
+        <jena.version>4.7.0</jena.version>
         <ids-components.version>5.0.4</ids-components.version>
         <ids-serializer.version>5.0.4</ids-serializer.version>
         <ids-java.version>5.0.3</ids-java.version>
